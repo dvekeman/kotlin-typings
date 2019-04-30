@@ -19,5 +19,5 @@ fun main(args: Array<String>) {
 }
 ```
 
-See examples/hello-world-smartclient-kotlin
+See [examples/hello-world-smartclient-kotlin](examples/hello-world-smartclient-kotlin)
 
