@@ -2,7 +2,7 @@ plugins {
     java
     war
     kotlin("jvm") version "1.3.31"
-
+    id("org.akhikhl.gretty") version "2.0.0"
 }
 
 repositories {
@@ -17,5 +17,11 @@ java {
 
 dependencies {
     compile("javax:javaee-api:7.0")
-    implementation(kotlin("stdlib"))
+    compile(kotlin("stdlib"))
+
+}
+
+gretty {
+    contextPath = "/"
+    servletContainer = "jetty9"
 }

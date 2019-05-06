@@ -1,5 +1,7 @@
 rootProject.name = "smartclient-server-integration"
 
+include(":server")
+include(":client")
 
 pluginManagement {
 
