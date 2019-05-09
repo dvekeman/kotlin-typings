@@ -2,7 +2,7 @@
 
 *IMPORTANT* This exampled *does not* include the SmartClient Runtime.
 
-See ../hello-world-smartclient-kotlin/README.MD for basic instructions.
+See [../hello-world-smartclient-kotlin/README.MD] for basic instructions.
 
 ## Final result
 
