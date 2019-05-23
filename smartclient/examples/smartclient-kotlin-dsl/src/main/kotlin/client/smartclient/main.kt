@@ -1,7 +1,6 @@
 package client.smartclient
 
 import dsl.isc.*
-import isc.MenuItem
 import kotlinx.html.div
 import kotlinx.html.h1
 import kotlinx.html.p
@@ -28,22 +27,22 @@ enum class NavigationItem(val title: String, val nav: String) {
  *
  */
 fun main() {
-    label {
-        height = "100%"
-        width = "100%"
-        contents = "Hello world"
-    }
-//    vlayout {
-//        width = "100%"
+//    label {
 //        height = "100%"
-//        margin = 10
-//
-//        members =
-//                arrayOf(
-//                        createMainMenu(),
-//                        createMainLayout()
-//                )
+//        width = "100%"
+//        contents = "Hello world"
 //    }
+    vlayout {
+        width = "100%"
+        height = "100%"
+        margin = 10
+
+        members =
+                arrayOf(
+                        createMainMenu(),
+                        createMainLayout()
+                )
+    }
 }
 
 /**
@@ -117,7 +116,7 @@ fun switchModule(mainLayout: isc.Layout) {
                     { dsl() }
                 }
                 else -> {
-                    window.alert("${window.location.hash} is not found.")
+                    window.alert("'${window.location.hash}' is not found.")
                     null
                 }
             }
