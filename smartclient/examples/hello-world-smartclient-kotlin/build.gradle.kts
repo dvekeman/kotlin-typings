@@ -9,10 +9,14 @@ plugins {
 repositories {
     jcenter()
     mavenCentral()
+    maven { 
+        url = uri("https://dl.bintray.com/dvekeman/kotlin-typings")
+    }
 }
 
 dependencies {
     implementation(kotlin("stdlib-js"))
+    implementation(group = "dvekeman", name = "isc", version = "0.0.1-pre.1-kotlin-1.3.31")
 }
 
 kotlinFrontend {

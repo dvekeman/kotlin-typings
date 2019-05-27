@@ -11,7 +11,26 @@ The bindings and the DSL can be used in a Kotlin JS project
 
 ### Bindings
 
-Copy the `isc` directory into your kotlin (js) source directory.
+The binding are provided as a dependency. Add the `https://dl.bintray.com/dvekeman/kotlin-typings` maven repository to your gradle repositories and then include `dvekeman:isc:0.0.1-pre.1-kotlin-1.3.31` as a depedency
+
+Example using Gradle Kotlin DSL:
+
+*build.gradle.kts*
+
+```
+repositories {
+    ...
+
+    maven { 
+        url = uri("https://dl.bintray.com/dvekeman/kotlin-typings")
+    }
+}
+
+dependencies {
+    ...
+    implementation(group = "dvekeman", name = "isc", version = "0.0.1-pre.1-kotlin-1.3.31")
+}
+```
 
 *src/kotlin/main.kt*
 

@@ -7,6 +7,7 @@ data class LayoutProperties(
         var width: String? = null,
         var height: String? = null,
         var margin: Number? = null,
+        var styleName: String = "normal",
 
         /**
          *  An array of canvases that will be contained within this layout. You can set the
