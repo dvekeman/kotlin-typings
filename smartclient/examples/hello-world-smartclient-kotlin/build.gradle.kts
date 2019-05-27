@@ -9,7 +9,7 @@ plugins {
 repositories {
     jcenter()
     mavenCentral()
-    maven { 
+    maven {
         url = uri("https://dl.bintray.com/dvekeman/kotlin-typings")
     }
 }
