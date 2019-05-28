@@ -9,3 +9,8 @@ SDK Explorer: https://www.smartclient.com/smartclient/
 Showcase: https://www.smartclient.com/smartclient/showcase
 
 See [SmartClient README](smartclient/README.MD)
+
+[ ![Download](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient/images/download.svg) ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient/_latestVersion)
+
+[ ![Download](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient-dsl/images/download.svg) ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient-dsl/_latestVersion)
+
