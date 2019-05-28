@@ -11,7 +11,7 @@ The bindings and the DSL can be used in a Kotlin JS project
 
 ### Bindings
 
-The binding are provided as a dependency. Add the `https://dl.bintray.com/dvekeman/kotlin-typings` maven repository to your gradle repositories and then include `dvekeman:isc:0.0.1-pre.1-kotlin-1.3.31` as a depedency
+The binding are provided as a dependency.
 
 Example using Gradle Kotlin DSL:
 
@@ -28,9 +28,11 @@ repositories {
 
 dependencies {
     ...
-    implementation(group = "dvekeman", name = "isc", version = "0.0.1-pre.1-kotlin-1.3.31")
+    implementation(group = "dvekeman", name = "kotlin-smartclient", version = "0.0.1-pre.3-kotlin-1.3.31")
 }
 ```
+
+[ ![Download kotlin-smartclient](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient/images/download.svg) ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient/_latestVersion)
 
 *src/kotlin/main.kt*
 
@@ -45,7 +47,29 @@ See [examples/hello-world-smartclient-kotlin](examples/hello-world-smartclient-k
 
 ### DSL
 
-Copy the `dsl/isc` directory into your Kotlin JS source directory.
+The DSL is also provided as a dependency.
+
+Example using Gradle Kotlin DSL:
+
+*build.gradle.kts*
+
+```
+repositories {
+    ...
+
+    maven { 
+        url = uri("https://dl.bintray.com/dvekeman/kotlin-typings")
+    }
+}
+
+dependencies {
+    ...
+    implementation(group = "dvekeman", name = "kotlin-smartclient-dsl", version = "0.0.1-pre.3-kotlin-1.3.31")
+}
+```
+
+[ ![Download kotlin-smartclient](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient-dsl/images/download.svg) ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient-dsl/_latestVersion)
+
 
 *src/kotlin/main.kt*
 
