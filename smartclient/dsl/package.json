@@ -1,7 +1,7 @@
 {
-  "name": "@dvekeman/kotlin-smartclient",
-  "version": "0.0.1-pre.3",
-  "description": "Kotlin wrapper for SmartClient library",
+  "name": "@dvekeman/kotlin-smartclient-dsl",
+  "version": "0.0.1-pre.1",
+  "description": "Kotlin DSL for the SmartClient JS library",
   "files": [
     "build",
     "src",
@@ -9,7 +9,7 @@
     "README.md", 
     "LICENSE"
   ],
-  "main": "build/classes/main/kotlin-smartclient.js",
+  "main": "build/classes/main/kotlin-smartclient-dsl.js",
   "repository": "https://github.com/dvekeman/kotlin-typings",
   "peerDependencies": {
     "@jetbrains/kotlin-extensions": "^1.0.1-pre.71",

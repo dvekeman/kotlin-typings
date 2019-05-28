@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
-    implementation(group = "dvekeman", name = "isc", version = "0.0.1-pre.1-kotlin-1.3.31")
+    implementation(group = "dvekeman", name = "kotlin-smartclient", version = "0.0.1-pre.2-kotlin-1.3.31")
 }
 
 kotlinFrontend {
