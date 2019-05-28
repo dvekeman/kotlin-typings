@@ -115,6 +115,9 @@ fun switchModule(mainLayout: isc.Layout) {
                 "#/dsl/" -> {
                     { dsl() }
                 }
+                "" -> {
+                    { home() }
+                }
                 else -> {
                     window.alert("'${window.location.hash}' is not found.")
                     null

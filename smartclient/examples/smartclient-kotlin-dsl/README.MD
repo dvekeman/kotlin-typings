@@ -1,8 +1,13 @@
 # Smartclient DSL
 
-*IMPORTANT* This exampled *does not* include the SmartClient Runtime.
+*IMPORTANT* This example *does not* include the SmartClient Runtime.
 
 See [Hello World](../hello-world-smartclient-kotlin/README.MD) for basic instructions.
+
+```
+./gradlew stop # ensure the daemon is not already running
+./gradlew -i bundle run
+```
 
 ## Final result
 

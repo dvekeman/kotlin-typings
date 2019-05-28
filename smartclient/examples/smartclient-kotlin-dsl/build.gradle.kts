@@ -2,13 +2,16 @@ import org.jetbrains.kotlin.gradle.frontend.webpack.WebPackExtension
 import org.jetbrains.kotlin.gradle.tasks.Kotlin2JsCompile
 
 plugins {
-    id("kotlin2js") version "1.3.21"
+    id("kotlin2js") version "1.3.31"
     id("org.jetbrains.kotlin.frontend") version "0.0.45"
 }
 
 repositories {
     jcenter()
     mavenCentral()
+    maven {
+        url = uri("https://dl.bintray.com/dvekeman/kotlin-typings")
+    }
 }
 
 dependencies {
@@ -17,6 +20,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.0-alpha")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.2.0-alpha")
     implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.6.10")
+
+    implementation(group = "dvekeman", name = "kotlin-smartclient", version = "0.0.1-pre.3-kotlin-1.3.31")
+    implementation(group = "dvekeman", name = "kotlin-smartclient-dsl", version = "0.0.1-pre.1-kotlin-1.3.31")
 
 }
 
