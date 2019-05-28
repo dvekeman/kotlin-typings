@@ -10,7 +10,7 @@ Showcase: https://www.smartclient.com/smartclient/showcase
 
 See [SmartClient README](smartclient/README.MD)
 
-[ ![Download kotlin-smartclient](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient/images/download.svg) ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient/_latestVersion)
+[ ![Download kotlin-smartclient](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient/images/download.svg) kotlin-smartclient ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient/_latestVersion)
 
-[ ![Download kotlin-smartclient-dsl](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient-dsl/images/download.svg) ](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient-dsl/_latestVersion)
+[ ![Download kotlin-smartclient-dsl](https://api.bintray.com/packages/dvekeman/kotlin-typings/kotlin-smartclient-dsl/images/download.svg) kotlin-smartclient-dsl](https://bintray.com/dvekeman/kotlin-typings/kotlin-smartclient-dsl/_latestVersion)
 
